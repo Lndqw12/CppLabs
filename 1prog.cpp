@@ -1,11 +1,17 @@
 #include <iostream>
 using namespace std;
-int main() {
-    string text;
-    cout << "WRITE TEXT\n";
-    cin >> text;
-    cout <<text<<endl;
-    system("pause");
-    return 0;
+int myfunc (int a, int b){
+    int sum;
+    sum = a+b;
+    return sum;
 }
 
+int main () {
+    int k,m,sum;
+    cin>>k;
+    cin>>m;
+    sum = myfunc(k,m);
+    cout<<sum;
+    system("pause");
+    return 0;   
+}
